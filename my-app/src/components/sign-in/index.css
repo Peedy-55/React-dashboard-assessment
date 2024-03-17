@@ -50,7 +50,7 @@
     width: 170px;
   }
 
-  .hor-card{
+  .hor-card{   
     display: flex;
     justify-content: space-around;
     align-items: center;
