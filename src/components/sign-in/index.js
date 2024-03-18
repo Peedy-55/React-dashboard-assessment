@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faApple } from '@fortawesome/free-brands-svg-icons';
@@ -41,7 +42,9 @@ function SignInPage() {
             <input type="email" placeholder="Email address" />
             <input type="password" placeholder="Password" />
             <a href="/forgot-password">Forgot password?</a>
+            <Link to="/dashboard">
             <button className="signInBtn" type="submit">Sign In</button>
+            </Link>
           </form>
           <p className='grey-text'>Don't have an account? <a href="/register">Register</a></p>
         </div>
