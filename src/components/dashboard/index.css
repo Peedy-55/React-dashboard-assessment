@@ -1,0 +1,158 @@
+/* General Styles */
+.dashboard {
+    display: flex;
+    font-family: Arial, sans-serif;
+    color: lightgrey;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    background-color: black;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .sidebar-header {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-nav li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: darkgrey;
+    margin: 20px;
+  }
+  .sidebar-footer p {
+   display: flex;
+   align-self: flex-end;
+  }
+  
+  .sidebar-footer p {
+    color: darkgrey;
+    margin-bottom: 10px;
+  }
+  
+  /* Main Area Styles */
+  .main-area {
+    flex-grow: 1;
+    background-color: #f0f2f5;
+    padding: 20px;
+  }
+  
+  .main-area-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-area-search-bar input {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  .main-area-notification-icon, .main-area-profile-picture {
+    margin-right: 20px;
+  }
+  
+  .main-area-profile-picture img {
+    border-radius: 50%;
+  }
+  
+  /* Container Styles */
+  .main-area-containers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .main-area-container {
+    flex-grow: 1;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    position: relative;
+  }
+  
+  .main-area-container-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .main-area-container-heading {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .main-area-container-subheading {
+    font-size: 18px;
+  }
+  
+  .main-area-container-green {
+    background-color: lightgreen;
+  }
+  
+  .main-area-container-orange {
+    background-color: lightsalmon;
+  }
+  
+  .main-area-container-red {
+    background-color: lightcoral;
+  }
+  
+  .main-area-container-purple {
+    background-color: violet;
+  }
+  
+  /* Graph Styles */
+  .main-area-graph {
+    margin-bottom: 20px;
+  }
+  
+  .main-area-graph-heading, .main-area-card-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .main-area-graph-dropdown select, .main-area-card-dropdown select {
+    margin-bottom: 20px;
+  }
+  
+  /* Card Styles */
+  .main-area-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-area-card {
+    width: 48%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+  }
+  
+  .main-area-card-see-all {
+    color: lightgray;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .main-area-card-event-cards {
+    color: lightgrey;
+  }
+  
+  .main-area-card-event-card {
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
